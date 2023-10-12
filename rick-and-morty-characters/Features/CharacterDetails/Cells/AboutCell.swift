@@ -39,7 +39,7 @@ final class AboutCell: UITableViewCell {
         return stackView
     }()
     
-    private lazy var rootStackView: UIStackView = {
+    private lazy var hStackView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [icon, textsStackView])
         stackView.axis = .horizontal
         stackView.alignment = .leading
@@ -82,16 +82,16 @@ final class AboutCell: UITableViewCell {
 extension AboutCell: ViewCode {
     
     func setupHierarchy() {
-        contentView.addSubview(rootStackView)
+        contentView.addSubview(hStackView)
         contentView.addSubview(divider)
     }
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            rootStackView.topAnchor.constraint(equalTo: contentView.topAnchor),
-            rootStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            rootStackView.bottomAnchor.constraint(equalTo: divider.topAnchor),
-            rootStackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+            hStackView.topAnchor.constraint(equalTo: contentView.topAnchor),
+            hStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            hStackView.bottomAnchor.constraint(equalTo: divider.topAnchor),
+            hStackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             
             divider.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
             divider.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
