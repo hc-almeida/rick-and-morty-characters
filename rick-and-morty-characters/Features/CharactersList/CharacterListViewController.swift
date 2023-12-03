@@ -28,6 +28,12 @@ class CharacterListViewController: UIViewController {
         setupNavigation()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupSearchBar()
+        setupNavigation()
+    }
+    
     // MARK: - Private Methods
     
     private func setupNavigation() {

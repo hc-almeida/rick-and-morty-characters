@@ -23,15 +23,15 @@
 		D466FD742AC26DD000138D08 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466FD732AC26DD000138D08 /* CustomButton.swift */; };
 		D466FD762AC2704D00138D08 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D466FD752AC2704D00138D08 /* UIStackView+Extensions.swift */; };
 		D487F7FE2AC2961200FBEAAE /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487F7FD2AC2961200FBEAAE /* CharacterCell.swift */; };
+		D4A9F2B72B1C16E50029F28D /* CharacterInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9F2B62B1C16E50029F28D /* CharacterInfoView.swift */; };
+		D4A9F2B92B1C19590029F28D /* CharacterDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9F2B82B1C19590029F28D /* CharacterDetails.swift */; };
 		D4D245342AC5D228000628AF /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245332AC5D228000628AF /* CharacterListView.swift */; };
-		D4D245362AC5D753000628AF /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245352AC5D753000628AF /* Character.swift */; };
+		D4D245362AC5D753000628AF /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245352AC5D753000628AF /* CharacterList.swift */; };
 		D4D245382AC5DA5B000628AF /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245372AC5DA5B000628AF /* CharacterListViewController.swift */; };
 		D4D2453D2AC73C29000628AF /* CharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D2453C2AC73C29000628AF /* CharacterDetailsViewController.swift */; };
 		D4D2453F2AD5BB05000628AF /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D2453E2AD5BB05000628AF /* CharacterDetailsView.swift */; };
 		D4D245412AD5D484000628AF /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245402AD5D484000628AF /* BackButton.swift */; };
-		D4D245442AD71DC2000628AF /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245432AD71DC2000628AF /* AboutCell.swift */; };
-		D4D245462AD71FAF000628AF /* CharacterAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245452AD71FAF000628AF /* CharacterAbout.swift */; };
-		D4D245482AD7214C000628AF /* CharacterSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245472AD7214C000628AF /* CharacterSection.swift */; };
+		D4D245462AD71FAF000628AF /* CharacterAboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D245452AD71FAF000628AF /* CharacterAboutViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,15 +53,15 @@
 		D466FD732AC26DD000138D08 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		D466FD752AC2704D00138D08 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		D487F7FD2AC2961200FBEAAE /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		D4A9F2B62B1C16E50029F28D /* CharacterInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoView.swift; sourceTree = "<group>"; };
+		D4A9F2B82B1C19590029F28D /* CharacterDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetails.swift; sourceTree = "<group>"; };
 		D4D245332AC5D228000628AF /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
-		D4D245352AC5D753000628AF /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D4D245352AC5D753000628AF /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
 		D4D245372AC5DA5B000628AF /* CharacterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
 		D4D2453C2AC73C29000628AF /* CharacterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewController.swift; sourceTree = "<group>"; };
 		D4D2453E2AD5BB05000628AF /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
 		D4D245402AD5D484000628AF /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
-		D4D245432AD71DC2000628AF /* AboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
-		D4D245452AD71FAF000628AF /* CharacterAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterAbout.swift; sourceTree = "<group>"; };
-		D4D245472AD7214C000628AF /* CharacterSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSection.swift; sourceTree = "<group>"; };
+		D4D245452AD71FAF000628AF /* CharacterAboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterAboutViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,7 @@
 		D466FD472AC258A400138D08 /* rick-and-morty-characters */ = {
 			isa = PBXGroup;
 			children = (
+				D4A9F2BC2B1C36A70029F28D /* Networking */,
 				D466FD6D2AC2676000138D08 /* Features */,
 				D466FD5C2AC25BD400138D08 /* Helpers */,
 				D466FD612AC2626500138D08 /* Application */,
@@ -156,8 +157,6 @@
 		D466FD6D2AC2676000138D08 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				D4D245452AD71FAF000628AF /* CharacterAbout.swift */,
-				D4D245352AC5D753000628AF /* Character.swift */,
 				D4D2453B2AC73C04000628AF /* CharacterDetails */,
 				D4D245322AC5C891000628AF /* CharactersList */,
 				D4D245312AC5C882000628AF /* Onboarding */,
@@ -168,10 +167,35 @@
 		D466FD722AC26D4900138D08 /* DesignsSystem */ = {
 			isa = PBXGroup;
 			children = (
-				D466FD732AC26DD000138D08 /* CustomButton.swift */,
-				D4D245402AD5D484000628AF /* BackButton.swift */,
+				D4A9F2BA2B1C28570029F28D /* CustomButton */,
+				D4A9F2BB2B1C286C0029F28D /* CharacterInfoView */,
 			);
 			path = DesignsSystem;
+			sourceTree = "<group>";
+		};
+		D4A9F2BA2B1C28570029F28D /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				D4D245402AD5D484000628AF /* BackButton.swift */,
+				D466FD732AC26DD000138D08 /* CustomButton.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		D4A9F2BB2B1C286C0029F28D /* CharacterInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				D4D245452AD71FAF000628AF /* CharacterAboutViewModel.swift */,
+				D4A9F2B62B1C16E50029F28D /* CharacterInfoView.swift */,
+			);
+			path = CharacterInfoView;
+			sourceTree = "<group>";
+		};
+		D4A9F2BC2B1C36A70029F28D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		D4D245312AC5C882000628AF /* Onboarding */ = {
@@ -186,6 +210,7 @@
 		D4D245322AC5C891000628AF /* CharactersList */ = {
 			isa = PBXGroup;
 			children = (
+				D4D245352AC5D753000628AF /* CharacterList.swift */,
 				D487F7FD2AC2961200FBEAAE /* CharacterCell.swift */,
 				D4D245332AC5D228000628AF /* CharacterListView.swift */,
 				D4D245372AC5DA5B000628AF /* CharacterListViewController.swift */,
@@ -196,20 +221,11 @@
 		D4D2453B2AC73C04000628AF /* CharacterDetails */ = {
 			isa = PBXGroup;
 			children = (
-				D4D245422AD71C56000628AF /* Cells */,
+				D4A9F2B82B1C19590029F28D /* CharacterDetails.swift */,
 				D4D2453C2AC73C29000628AF /* CharacterDetailsViewController.swift */,
 				D4D2453E2AD5BB05000628AF /* CharacterDetailsView.swift */,
-				D4D245472AD7214C000628AF /* CharacterSection.swift */,
 			);
 			path = CharacterDetails;
-			sourceTree = "<group>";
-		};
-		D4D245422AD71C56000628AF /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				D4D245432AD71DC2000628AF /* AboutCell.swift */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,23 +302,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D466FD4D2AC258A400138D08 /* OnboardingViewController.swift in Sources */,
-				D4D245462AD71FAF000628AF /* CharacterAbout.swift in Sources */,
+				D4D245462AD71FAF000628AF /* CharacterAboutViewModel.swift in Sources */,
 				D4D245342AC5D228000628AF /* CharacterListView.swift in Sources */,
-				D4D245482AD7214C000628AF /* CharacterSection.swift in Sources */,
 				D4D2453D2AC73C29000628AF /* CharacterDetailsViewController.swift in Sources */,
 				D4D2453F2AD5BB05000628AF /* CharacterDetailsView.swift in Sources */,
 				D466FD492AC258A400138D08 /* AppDelegate.swift in Sources */,
+				D4A9F2B72B1C16E50029F28D /* CharacterInfoView.swift in Sources */,
+				D4A9F2B92B1C19590029F28D /* CharacterDetails.swift in Sources */,
 				D466FD742AC26DD000138D08 /* CustomButton.swift in Sources */,
 				D4D245412AD5D484000628AF /* BackButton.swift in Sources */,
 				D466FD4B2AC258A400138D08 /* SceneDelegate.swift in Sources */,
 				D466FD692AC262E000138D08 /* UIFont+Extensions.swift in Sources */,
 				D487F7FE2AC2961200FBEAAE /* CharacterCell.swift in Sources */,
 				D466FD5F2AC25C2100138D08 /* UIColor+Extensions.swift in Sources */,
-				D4D245442AD71DC2000628AF /* AboutCell.swift in Sources */,
 				D466FD6C2AC2670B00138D08 /* ViewCode.swift in Sources */,
 				D466FD762AC2704D00138D08 /* UIStackView+Extensions.swift in Sources */,
 				D4D245382AC5DA5B000628AF /* CharacterListViewController.swift in Sources */,
-				D4D245362AC5D753000628AF /* Character.swift in Sources */,
+				D4D245362AC5D753000628AF /* CharacterList.swift in Sources */,
 				D466FD6F2AC269E700138D08 /* OnboardingView.swift in Sources */,
 				D466FD712AC26A6F00138D08 /* UIImage+Extensions.swift in Sources */,
 			);

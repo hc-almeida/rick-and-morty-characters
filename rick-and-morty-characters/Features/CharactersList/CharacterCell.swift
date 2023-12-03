@@ -29,7 +29,6 @@ final class CharacterCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .customFont(ofSize: 18, weight: .bold)
-//        label.textColor = .white
         return label
     }()
     
@@ -37,7 +36,6 @@ final class CharacterCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .customFont(ofSize: 14, weight: .regular)
-//        label.textColor = .white
         return label
     }()
     
@@ -45,7 +43,6 @@ final class CharacterCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .customFont(ofSize: 14, weight: .bold)
-//        label.textColor = .white
         return label
     }()
     
@@ -53,7 +50,6 @@ final class CharacterCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .customFont(ofSize: 14, weight: .regular)
-//        label.textColor = .white
         return label
     }()
 
@@ -105,19 +101,24 @@ final class CharacterCell: UITableViewCell {
     // MARK: - Life cycle
     
     override func layoutSubviews() {
+        super.layoutSubviews()
         circle.layer.cornerRadius = circle.layer.bounds.width / 2
         circle.clipsToBounds = true
     }
     
-    func configureCell(data: Character) {
+    // MARK: - Public Methods
+    
+    func configureCell(data: CharacterList) {
         characterImage.image = UIImage(named: data.image)
         nameLabel.text = data.name
-        speciesLabel.text = data.species
-        locationDescriptionLabel.text = data.origin
+        speciesLabel.text = data.status
+        locationDescriptionLabel.text = "Last known location:"
         locationLabel.text = data.location
     }
     
 }
+
+// MARK: - ViewCode
 
 extension CharacterCell: ViewCode {
     

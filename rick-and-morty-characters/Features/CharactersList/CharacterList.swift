@@ -5,10 +5,9 @@
 //  Created by Hellen Caroline  on 28/09/23.
 //
 
-struct Character  {
+struct CharacterList  {
     let image: String
     let name: String
-    let species: String
-    let origin: String
+    let status: String
     let location: String
 }
