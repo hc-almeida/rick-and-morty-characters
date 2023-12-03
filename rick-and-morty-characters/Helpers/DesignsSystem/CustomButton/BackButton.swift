@@ -62,21 +62,12 @@ extension BackButton: ViewCode {
             contentView.leadingAnchor.constraint(equalTo: leadingAnchor),
             contentView.trailingAnchor.constraint(equalTo: trailingAnchor),
             contentView.bottomAnchor.constraint(equalTo: bottomAnchor),
-//            contentView.heightAnchor.constraint(equalToConstant: 35),
-//            contentView.widthAnchor.constraint(equalToConstant: 35),
             
             backButton.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
             backButton.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
             backButton.heightAnchor.constraint(equalToConstant: 40),
-            backButton.widthAnchor.constraint(equalToConstant: 40),
-//
-//            backButton.topAnchor.constraint(equalTo: topAnchor),
-//            backButton.leadingAnchor.constraint(equalTo: leadingAnchor),
-//            backButton.trailingAnchor.constraint(equalTo: trailingAnchor),
-//            backButton.bottomAnchor.constraint(equalTo: bottomAnchor),
-
+            backButton.widthAnchor.constraint(equalToConstant: 40)
         ])
-        
     }
     
     func setupConfigurations() {

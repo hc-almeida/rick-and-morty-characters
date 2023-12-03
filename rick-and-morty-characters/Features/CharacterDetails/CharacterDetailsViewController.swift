@@ -9,11 +9,11 @@ import UIKit
 
 class CharacterDetailsViewController: UIViewController {
     
-    
     // MARK: - Properties
 
     private lazy var customView: CharacterDetailsView = {
         let view = CharacterDetailsView()
+        view.delegate = self
         return view
     }()
 
@@ -41,5 +41,14 @@ class CharacterDetailsViewController: UIViewController {
         label.text = name
     }
     
+}
+ 
+// MARK: - CharacterDetailsViewDelegate
+
+extension CharacterDetailsViewController: CharacterDetailsViewDelegate {
     
+    func didTapAtBackButton() {
+        navigationController?.popViewController(animated: true)
+    }
+
 }

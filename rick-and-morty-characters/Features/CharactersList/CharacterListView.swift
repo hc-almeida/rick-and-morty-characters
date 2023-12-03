@@ -38,6 +38,8 @@ class CharacterListView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - Public Methods
+    
     func setup() {
         tableView.reloadData()
     }
@@ -103,41 +105,73 @@ extension CharacterListView: UITableViewDataSource {
 
 var DataChacter = [
 
-    Character(
+    CharacterList(
         image: "image",
         name: "Quantum Rick",
-        species: "Unknow",
-        origin: "Last known location:",
+        status: "Alive",
         location: "Rick's Memories"
     ),
-    Character(
+    CharacterList(
         image: "image",
         name: "Quantum Rick",
-        species: "Unknow",
-        origin: "Last known location:",
+        status: "Alive",
         location: "Rick's Memories"
     ),
-    Character(
+    CharacterList(
         image: "image",
         name: "Quantum Rick",
-        species: "Unknow",
-        origin: "Last known location:",
+        status: "Alive",
         location: "Rick's Memories"
     ),
-    Character(
+    CharacterList(
         image: "image",
         name: "Quantum Rick",
-        species: "Unknow",
-        origin: "Last known location:",
+        status: "Alive",
         location: "Rick's Memories"
     ),
-    Character(
+    CharacterList(
         image: "image",
         name: "Quantum Rick",
-        species: "Unknow",
-        origin: "Last known location:",
+        status: "Alive",
         location: "Rick's Memories"
     )
 
 
 ]
+
+
+//Character(
+//    image: "image",
+//    name: "Quantum Rick",
+//    species: "Unknow",
+//    origin: "Last known location:",
+//    location: "Rick's Memories"
+//),
+//Character(
+//    image: "image",
+//    name: "Quantum Rick",
+//    species: "Unknow",
+//    origin: "Last known location:",
+//    location: "Rick's Memories"
+//),
+//Character(
+//    image: "image",
+//    name: "Quantum Rick",
+//    species: "Unknow",
+//    origin: "Last known location:",
+//    location: "Rick's Memories"
+//),
+//Character(
+//    image: "image",
+//    name: "Quantum Rick",
+//    species: "Unknow",
+//    origin: "Last known location:",
+//    location: "Rick's Memories"
+//),
+//Character(
+//    image: "image",
+//    name: "Quantum Rick",
+//    species: "Unknow",
+//    origin: "Last known location:",
+//    location: "Rick's Memories"
+//)
